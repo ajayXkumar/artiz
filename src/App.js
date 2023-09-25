@@ -4,6 +4,7 @@ import Home from "./screens/home"
 import Navbar from "./screens/navbar"
 import Illu from "./screens/illu"
 import Draw from "./screens/drawing"
+import Clicks from "./screens/clicks"
 function App() {
   return (
     <Router>
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home/>}></Route>
         <Route path="/illu" element={<Illu/>}></Route>
         <Route path="/drawing" element={<Draw/>}></Route>
+        <Route path="/clicks" element={<Clicks/>}></Route>
       </Routes>
     </Router>
 

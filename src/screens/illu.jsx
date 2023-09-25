@@ -41,15 +41,6 @@ function Illu() {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="App">
-        {data
-          .filter((item) => item.category === "illustration")
-          .map((item, index) => (
-            <div key={index}>
-              <img className="img" src={item.image} />
-            </div>
-          ))}
-      </div>
     </div>
   );
 }
