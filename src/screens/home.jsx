@@ -1,19 +1,15 @@
 import React from 'react'
 import "../App.css"
-import data from "../arts"
+import {Link} from 'react-router-dom'
+import art1 from "../images/1.jpg"
 export const Home = () => {
   return (
     <div className="App">
-       
-    {data.map((item,index)=>(
-      <div key={index}>
-      <img className="img" src={item.image}/>
-      
-      </div>
 
-    ))
-
-}
+      <Link to='/illu' >
+        <img className="img" src={art1}/>
+        <p className='illu' text-decoration ="none ">Illustration</p>
+      </Link>
 </div>
   )
 }
