@@ -2,6 +2,18 @@ import porduct1 from "./images/1.jpg"
 import product2 from "./images/2.jpg"
 import product3 from "./images/3.jpg"
 import product4 from "./images/4.jpg"
+import product5 from "./images/5.jpg"
+import product6 from "./images/6.jpg"
+import product7 from "./images/7.jpg"
+import product8 from "./images/8.jpg"
+import product9 from "./images/9.jpg"
+import product10 from "./images/10.jpg"
+import product11 from "./images/11.jpg"
+import product12 from "./images/12.jpg"
+import product13 from "./images/13.jpg"
+import product14 from "./images/14.jpg"
+import product15 from "./images/15.jpg"
+import product16 from "./images/16.jpg"
 const arts = [
     {
         id: 1,
@@ -32,6 +44,91 @@ const arts = [
         category:"illustration",
         description: "ameinf ajfbafjbfb"
     },
+    {
+        id: 5,
+        name: "cool drawing",
+        image: product5,
+        category:"illustration",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 6,
+        name: "cool drawing",
+        image: product6,
+        category:"illustration",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 7,
+        name: "cool drawing",
+        image: product7,
+        category:"illustration",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 8,
+        name: "cool drawing",
+        image: product8,
+        category:"illustration",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 9,
+        name: "cool drawing",
+        image: product9,
+        category:"illustration",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 10,
+        name: "cool drawing",
+        image: product10,
+        category:"illustration",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 11,
+        name: "cool drawing",
+        image: product11,
+        category:"illustration",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 12,
+        name: "cool drawing",
+        image: product12,
+        category:"illustration",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 13,
+        name: "cool drawing",
+        image: product13,
+        category:"illustration",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 14,
+        name: "cool drawing",
+        image: product14,
+        category:"illustration",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 15,
+        name: "cool drawing",
+        image: product15,
+        category:"illustration",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 16,
+        name: "cool drawing",
+        image: product16,
+        category:"illustration",
+        description: "ameinf ajfbafjbfb"
+    },
 ];
+
 
 export default arts;

@@ -13,7 +13,7 @@ function Illu() {
 
   return (
     <div className="container">
-      <h1 className="heading">Flower Gallery</h1>
+      <h1 className="heading">ILLUSTRATION</h1>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
