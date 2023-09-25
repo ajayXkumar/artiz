@@ -11,12 +11,22 @@ body{
 }
 .img{
   margin: 30px;
-  width:350px;
+  width:330px;
   height: auto;
-  border-radius: 8px;
+  border-radius: 12px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
 }
 .illu{
   text-decoration: none;
   
+}
+@media (max-width: 450px){
+  
+  .img{
+    margin: 30px;
+    width:330px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  }
 }

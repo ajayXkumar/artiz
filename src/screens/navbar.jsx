@@ -9,8 +9,9 @@ import CollectionsIcon from '@mui/icons-material/Collections';
 const navbar = () => {
   return (
     <div className='nav'>
-        
-      <p className='artiz'>ARTIZ</p>
+      
+      <Link to ="/" className='artiz'>ARTIZ</Link>
+      {/* <p className='artiz'>ARTIZ</p> */}
       <div className='link'>
       <Link to ="/"><HomeIcon/></Link>
       <Link to ="/illu"><DesktopMacIcon/> </Link>
