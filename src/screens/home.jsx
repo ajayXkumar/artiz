@@ -2,7 +2,7 @@ import React from 'react'
 import "../App.css"
 import {Link} from 'react-router-dom'
 import art1 from "../images/3.jpg"
-import art2 from "../images/2.jpg"
+import art2 from "../images/20.jpg"
 export const Home = () => {
   return (
     <div className="App">

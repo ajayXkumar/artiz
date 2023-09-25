@@ -14,6 +14,12 @@ import product13 from "./images/13.jpg"
 import product14 from "./images/14.jpg"
 import product15 from "./images/15.jpg"
 import product16 from "./images/16.jpg"
+import product17 from "./images/17.jpg"
+import product18 from "./images/18.jpg"
+import product19 from "./images/19.jpg"
+import product20 from "./images/20.jpg"
+import product21 from "./images/21.jpg"
+import product22 from "./images/22.jpg"
 const arts = [
     {
         id: 1,
@@ -25,7 +31,7 @@ const arts = [
     {
         id: 2,
         name: "cool drawing",
-        image: product2,
+        image: product20,
         category:"drawing",
         description: "ameinf ajfbafjbfb"
     },
@@ -126,6 +132,48 @@ const arts = [
         name: "cool drawing",
         image: product16,
         category:"illustration",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 17,
+        name: "cool drawing",
+        image: product17,
+        category:"drawing",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 18,
+        name: "cool drawing",
+        image: product18,
+        category:"drawing",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 19,
+        name: "cool drawing",
+        image: product19,
+        category:"drawing",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 20,
+        name: "cool drawing",
+        image: product20,
+        category:"drawing",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 21,
+        name: "cool drawing",
+        image: product21,
+        category:"drawing",
+        description: "ameinf ajfbafjbfb"
+    },
+    {
+        id: 22,
+        name: "cool drawing",
+        image: product22,
+        category:"drawing",
         description: "ameinf ajfbafjbfb"
     },
 ];
