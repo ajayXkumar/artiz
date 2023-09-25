@@ -1,9 +1,9 @@
 import React from 'react'
 import "../App.css"
 import {Link} from 'react-router-dom'
-import art1 from "../images/3.jpg"
-import art2 from "../images/20.jpg"
-import art3 from "../images/24.jpg"
+import art1 from "../images/ill.jpg"
+import art2 from "../images/illu.jpg"
+import art3 from "../images/pics.jpg"
 export const Home = () => {
   return (
     <div className="App">
