@@ -1,38 +1,48 @@
-import React, { useState } from 'react';
-import '../App.css';
-import data from '../arts';
+import React from "react";
+import data from "../arts";
+import "./illu.css"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
-const Illu = () => {
-  const [showDetails, setShowDetails] = useState(false);
-  const [selectedImage, setSelectedImage] = useState(null);
-
-  const toggleDetails = (index) => {
-    setSelectedImage(index);
-    setShowDetails(!showDetails);
-  };
+function Illu() {
+  const filteredData = data.filter((item) => item.category === "illustration");
 
   return (
-    <div className="App">
-      {data.map((item, index) => (
-        <div key={index} className="image-container">
-          <img
-            className="img"
-            src={item.image}
-            alt={item.title}
-            onClick={() => toggleDetails(index)}
-          />
-          {showDetails && selectedImage === index && (
-            <div className="details">
-              <p>Title: {item.name}</p>
-              <p>Category: {item.category}</p>
-              <p>Description: {item.description}</p>
-              {/* Add other details here */}
-            </div>
-          )}
-        </div>
-      ))}
+    <div className="container">
+      <h1 className="heading">Flower Gallery</h1>
+      <Swiper
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        loop={true}
+        slidesPerView={'auto'}
+        coverflowEffect={{
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 2.5,
+        }}
+        pagination={{ el: '.swiper-pagination', clickable: true }}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+          clickable: true,
+        }}
+        modules={[EffectCoverflow, Pagination, Navigation]}
+        className="swiper_container"
+      >
+        {filteredData.map((item, index) => (
+          <SwiperSlide key={index}>
+            <img className="img" src={item.image} alt={`Illustration ${index}`} />
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </div>
   );
-};
+}
 
 export default Illu;
